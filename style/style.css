@@ -1,0 +1,258 @@
+@charset "UTF-8";
+
+@import url();
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Edu+TAS+Beginner&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Hind:wght@300;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Sora:wght@600&display=swap');
+
+
+@font-face {
+    font-family: 'Matcha';
+    src: url(../fontes/Matcha\ Latte.ttf);
+}
+
+:root {
+    --cor01: #fff;
+    --cor02: #268bb6;
+    --cor03: #b144a1af;
+    --cor04: #73a7bd;
+    --cor05: ;
+    --cor06: ;
+    --cor07: ;
+    --cor08: ;
+    --cor09: ;
+    --cor10: #000;
+
+    --font-family: 'Matcha', sans-serif;
+    --font-Mon: 'Montserrat', sans-serif;
+    --font-Edu: 'Edu TAS Beginner', sans-serif, cursive;
+    --font-Hind: 'Hind', sans-serif;
+    --font-Sora: 'Sora', sans-serif;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;    
+}
+
+h2 {
+    color: #268bb6;
+    margin-top: 0vh;
+    margin-bottom: 2vh;
+}
+
+nav > a {
+    color: var(--cor02);
+}
+
+a {
+    margin: 6px;
+    text-decoration: none;
+    color: rgb(255, 255, 255);
+    padding: 4px;
+    font-family: var(--font-Sora);
+}
+
+p {
+    text-align: center;
+    margin: 0px;
+    padding: 0px;
+}
+
+picture > img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    /* box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.363); */
+}
+
+body {
+    background-image: url("#");
+    background-repeat: no-repeat;
+    background-color: #fdead0;
+    font-family: 'XXX';
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    align-items: center;
+}
+
+body > p {
+
+
+}
+
+body > h1 {
+
+}
+
+header {
+
+}
+
+header > h1 {
+    
+}
+
+header > p {
+    
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    width: 60%;
+    max-width: 1400px;
+    min-width: 360px;
+}
+
+main > p {
+
+}
+
+main > h1 {
+
+}
+
+section {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: #EDDBC3;
+    border-radius: 0px;
+    height: 40vh;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    background-color: var(--cor02);
+    width: 100%;
+    height: 6vh;
+    margin-top: 1vh;
+
+}
+
+nav {
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 12px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.363);
+    background-color: #5C3F2D;
+    padding: 5px;    
+    width: 60%;
+    max-width: 1200px;
+    min-width: 500px;
+    height: 7vh;
+    font-size: 0.9rem;
+    margin-bottom: 1vh;
+    margin-top: 1vh;
+}
+
+.button {
+    margin-right: 2.5vw;
+}
+
+.container {
+    width: 70%;
+}
+
+.position {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.subsection {
+    background-color: white;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.363);
+    border-radius: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    max-width: 900px;
+    min-width: 100px;
+    height: 35vh;
+    gap: 1%;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.027);
+    border-radius: 12px;
+    display: inline;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.9rem;
+    width: 100%;
+    max-width: 500px;
+    min-width: 150px; 
+    height: 70%;
+    max-height: 270px;
+    min-height: 100px;
+    padding: 2.5%;
+    flex-wrap: wrap;
+}
+
+.card-foto {
+    background-color: none;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    width: 25%;
+    max-width: 400px;
+    min-width: 150px; 
+    padding: 0.4px;
+    margin-left: 8px;
+}
+
+.section-title {
+    width: 95%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 11vh;
+    color: white;
+    background-color: #cebfab;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.226);
+    border-radius: 8px;
+    height: 6vh;
+}
+
+.logo {
+    margin-top: 0.5vh;
+    margin-left: 3vw;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+#h2card {
+    margin-top: 2vh;
+    margin-bottom: 5px;
+    text-align: center;
+
+}
