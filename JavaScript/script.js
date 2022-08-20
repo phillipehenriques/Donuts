@@ -1,22 +1,24 @@
 var donutMorango = {
     id: 1,
-    value: 2.87
+    value: 4.99
 }
 
 var donutChocolate = {
     id: 2,
-    value: 5.49
+    value: 5.99
 }
 
-var donutMorango = {
-    id: 2,
-    value: 5.49
+var donutCaramelo = {
+    id: 3,
+    value: 5.99
 }
 
-var donutMorango = {
-    id: 2,
-    value: 5.49
+var donutLaranja = {
+    id: 4,
+    value: 4.99
 }
+
+var compras = document.getElementById('escolha')
 
 var listOfProducts = [
     { 
